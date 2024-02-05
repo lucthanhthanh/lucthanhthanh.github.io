@@ -1,18 +1,23 @@
 body {
 	/*background-color: #FFDAB9;	*/
 	background-color: #000;
-	-webkit-transition:background-color linear 5s;
-	-moz-transition:background-color linear 5s;
-	-o-transition:background-color linear 5s;
-	-ms-transition:background-color linear 5s;
-	transition:background-color linear 5s;
-	overflow-x:hidden;
+	background-image: url('5.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-transition: background-color linear 5s;
+	-moz-transition: background-color linear 5s;
+	-o-transition: background-color linear 5s;
+	-ms-transition: background-color linear 5s;
+	transition: background-color linear 5s;
+	overflow-x: hidden;
+	height: 100vh;
 }
 .container {
 	display: none;
 }
 .peach {
-	background-color: #FFDAB9;
+	background-color: #000;
 	
 }
 .peach-after {
